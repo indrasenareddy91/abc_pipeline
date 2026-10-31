@@ -1,0 +1,23 @@
+# Copy to terraform.tfvars and edit. terraform.tfvars is gitignored.
+
+project_name = "hack"            # neutral name: create once, reuse for any problem statement; resources are hack-dev-*
+environment  = "dev"
+alert_email  = "you@example.com"
+region       = "ap-south-1"
+
+# Auto-run: upload the batch files to s3://<bucket>/raw/<batch>/, then an empty _READY file last.
+# The run starts when _READY lands, so this works for ANY problem statement without re-applying.
+enable_file_trigger = true
+required_files      = ["_ready"]
+
+# Warehouse cost cap (Redshift Serverless is deactivated for the day after this many RPU-hours)
+redshift_max_rpu_hours_per_day = 10
+
+# Lock the dashboard to your IP (find it: curl ifconfig.me)
+# dashboard_allowed_cidrs = ["203.0.113.10/32"]
+
+# Optional
+# schedule_expression = "cron(30 0 * * ? *)"   # 06:00 IST daily
+# github_repo         = "yourname/cdt"         # GitHub Actions deploy role (OIDC)
+# enable_data_lake    = true                   # Athena over silver/ and quarantine/
+budget_usd = 20

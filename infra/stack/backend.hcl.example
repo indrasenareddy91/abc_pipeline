@@ -1,0 +1,4 @@
+# Copy to backend.hcl. bucket = the "state_bucket" output from infra/bootstrap (already exists in this account).
+bucket = "tfstate-<account-id>-ap-south-1"
+key    = "hack/dev/terraform.tfstate"   # <project_name>/<environment>/terraform.tfstate - NEW key, never practice/dev
+region = "ap-south-1"
