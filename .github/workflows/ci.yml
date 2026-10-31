@@ -1,0 +1,74 @@
+# CI: every push / pull request -> project pipeline tests (Spark local + Postgres service) and Terraform fmt/validate.
+# No secrets: the Postgres password below only exists inside this job's service container.
+name: ci
+
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: app
+          POSTGRES_PASSWORD: app_local_pw
+          POSTGRES_DB: warehouse
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U app -d warehouse"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      RUN_MODE: local
+      WAREHOUSE: postgres
+      PG_HOST: 127.0.0.1
+      PG_PORT: "5432"
+      PG_USER: app
+      PG_PASSWORD: app_local_pw
+      PG_DB: warehouse
+      SPARK_DRIVER_MEMORY: 2g
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-spark.txt
+            requirements-dashboard.txt
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install dependencies
+        run: pip install -r requirements-spark.txt -r requirements-dashboard.txt pytest
+
+
+      - name: (2) Project tests - our project end to end (runs, reconciles, unique keys, rerun-safe, planted issues)
+        run: python -m pytest -q tests/test_project.py
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
+
+      - name: (c) Terraform fmt + validate (no backend, no credentials)
+        run: |
+          terraform fmt -check -recursive infra
+          cd infra/stack
+          terraform init -backend=false -input=false
+          terraform validate
+
