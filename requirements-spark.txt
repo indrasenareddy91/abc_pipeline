@@ -1,0 +1,8 @@
+# Local Glue-like runner (Glue 5.0 = Spark 3.5 + Python 3.11)
+pyspark==3.5.4
+pandas==2.2.3
+pyarrow==18.1.0
+PyYAML==6.0.2
+boto3==1.35.49
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10

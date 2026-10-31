@@ -1,0 +1,29 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+backend.hcl
+crash.log
+**/.build/
+
+# Secrets / local env
+.env
+**/.env
+!**/.env.example
+*.pem
+*.key
+
+# Data and build outputs (never commit given data or outputs to a public repo)
+data/
+dist/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/

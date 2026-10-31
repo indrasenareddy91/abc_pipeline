@@ -1,0 +1,17 @@
+.git
+.github
+.env
+**/.env
+data
+dist
+infra
+infra_old
+tests
+docs
+scripts
+project/sample_data
+**/__pycache__
+**/.pytest_cache
+**/*.pyc
+*.zip
+**/.terraform
