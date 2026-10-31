@@ -1,0 +1,18 @@
+# Local Glue-like runner: Python 3.11 + Java 17 + PySpark 3.5 (Glue 5.0 = Spark 3.5.4, Python 3.11).
+# Build from the repo root:  docker build -f docker/Dockerfile.spark -t cdt-spark .
+# bookworm pinned: it still ships openjdk-17 (newer Debian only has 21+).
+FROM public.ecr.aws/docker/library/python:3.11-slim-bookworm
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=/app PROJECT_DIR=/app/project DATA_ROOT=/data
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends openjdk-17-jre-headless procps \
+ && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY requirements-spark.txt .
+RUN pip install --no-cache-dir -r requirements-spark.txt
+COPY engine engine
+COPY jobs jobs
+COPY project project
+RUN useradd -m -u 10001 appuser && mkdir -p /data && chown appuser /data
+USER appuser
+ENTRYPOINT ["python", "jobs/run_local.py"]
+CMD ["--batch", "day1"]

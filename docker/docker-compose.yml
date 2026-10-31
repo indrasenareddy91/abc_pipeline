@@ -1,0 +1,52 @@
+# Local stack: Postgres (warehouse) + Spark pipeline runner + Streamlit dashboard.
+#   cp docker/.env.example docker/.env
+#   mkdir -p data/raw && cp -r project/sample_data/raw/day1 data/raw/        # landing zone = ./data/raw/<batch>/
+#   docker compose -f docker/docker-compose.yml up -d --build                 # postgres + dashboard -> http://127.0.0.1:8501
+#   docker compose -f docker/docker-compose.yml run --rm pipeline --batch day1   (then day2 ...)
+# ./project is mounted, so rules/SQL/config edits need no rebuild.
+# Linux hosts: containers run as uid 10001; if the pipeline cannot write ./data, run: chmod -R a+rwX data
+name: cdt
+
+x-warehouse-env: &warehouse_env
+  RUN_MODE: local
+  WAREHOUSE: postgres
+  PG_HOST: postgres
+  PG_PORT: "5432"
+  PG_USER: app
+  PG_PASSWORD: ${PG_PASSWORD:?set PG_PASSWORD in docker/.env}
+  PG_DB: warehouse
+  PROJECT_DIR: /app/project
+  DATA_ROOT: /data
+
+services:
+  postgres:
+    image: public.ecr.aws/docker/library/postgres:16
+    environment:
+      POSTGRES_DB: warehouse
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${PG_PASSWORD:?set PG_PASSWORD in docker/.env}
+    ports: ["127.0.0.1:${PG_HOST_PORT:-5433}:5432"]   # 5433 on the host so it never clashes with a local Postgres
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d warehouse"]
+      interval: 5s
+      retries: 30
+
+  pipeline:
+    build: {context: .., dockerfile: docker/Dockerfile.spark}
+    profiles: [run]
+    environment: *warehouse_env
+    volumes: ["../data:/data", "${PROJECT_PATH:-../project}:/app/project"]
+    depends_on: {postgres: {condition: service_healthy}}
+
+  dashboard:
+    build: {context: .., dockerfile: docker/Dockerfile.dashboard}
+    environment:
+      <<: *warehouse_env
+      DASHBOARD_PASSWORD: ${DASHBOARD_PASSWORD:-}
+    volumes: ["../data:/data", "${PROJECT_PATH:-../project}:/app/project"]
+    ports: ["127.0.0.1:8501:8501"]
+    depends_on: {postgres: {condition: service_healthy}}
+
+volumes:
+  pgdata:

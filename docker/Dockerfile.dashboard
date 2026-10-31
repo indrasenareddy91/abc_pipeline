@@ -1,0 +1,16 @@
+# Streamlit dashboard. Same image locally (docker compose) and on the EC2 server (pulled from ECR).
+# Build from the repo root:  docker build -f docker/Dockerfile.dashboard -t cdt-dashboard .
+FROM public.ecr.aws/docker/library/python:3.11-slim-bookworm
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=/app PROJECT_DIR=/app/project
+WORKDIR /app
+COPY requirements-dashboard.txt .
+RUN pip install --no-cache-dir -r requirements-dashboard.txt
+COPY docker/streamlit/config.toml .streamlit/config.toml
+COPY engine engine
+COPY dashboard dashboard
+COPY project project
+RUN useradd -m -u 10001 appuser
+USER appuser
+EXPOSE 8501
+HEALTHCHECK --interval=30s --timeout=5s CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health')"
+CMD ["streamlit", "run", "dashboard/app.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
