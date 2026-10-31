@@ -1,0 +1,275 @@
+Customer ID,Customer Name,Customer_Segment,Maritial_Status,Gender,DOB,Effective_Start_Dt,Effective_End_Dt,Policy_Type_Id,Policy_Id,Premium_Amt,Policy_Start_Dt,Policy_End_Dt,Next_Premium_Dt,Actual_Premium_Paid_Dt,Country,Region,State or Province,City,Postal Code,Total_Policy_Amt,Premium_Amt_Paid_TillDate
+2359,Doctor Annie Horne,Home Office,Married,Female,6-Feb-90,1/2/2007,,13579,13579_2359,5000,1/2/2007,12/28/2029,4/2/2010,4/12/2010,United States,South,Florida,Fort Myers,33917,500000,60000
+2285,Doctor Arnold Floyd Blair,Corporate,Married,Male,6-Feb-93,1/2/2010,,13579,13579_2285,5000,1/2/2010,12/28/2032,4/2/2013,4/12/2013,USA,South,South Carolina,Rock Hill,29730,500000,60000
+2395,Doctor Beverly Roberts,Corporate,Single,Female,8-Feb-90,1/4/2007,,13579,13579_2395,5000,1/4/2007,12/30/2029,4/4/2010,4/14/2010,USA,South,Georgia,Savannah,31401,500000,60000
+507,Doctor Carol Saunders,Corporate,Single,Male,5-Feb-90,12/30/2009,,2468,02468_507,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,US,South,Kentucky,Bowling Green,42104,400000,60000
+3347,Doctor Carrie McIntosh,Consumer,Divorced,Male,5-Feb-91,12/30/2010,,2468,02468_3347,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,United States,South,Florida,Royal Palm Beach,33411,400000,60000
+3128,Doctor Cathy Burgess,Small Business,Divorced,Male,7-Feb-90,1/3/2007,,13579,13579_3128,5000,1/3/2007,12/29/2029,4/3/2010,4/13/2010,US,South,Louisiana,Shreveport,71109,500000,60000
+3224,Doctor Claudia White,Small Business,Divorced,Female,8-Dec-90,1/1/2008,,98765,98765_3224,2000,1/1/2008,12/28/2030,2/1/2011,3/3/2011,US,South,Tennessee,Gallatin,37066,200000,72000
+2137,Doctor Crystal Crabtree,Corporate,Single,Male,6-Feb-91,1/2/2008,,13579,13579_2137,5000,1/2/2008,12/28/2030,4/2/2011,4/12/2011,United States,South,Florida,West Palm Beach,33407,500000,60000
+2720,Doctor Donna Block,Small Business,Single,Male,5-Feb-89,12/30/2008,,2468,02468_2720,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,USA,South,Georgia,Dalton,30721,400000,60000
+2454,Doctor Donna Braun,Corporate,Single,Male,5-Feb-90,12/30/2009,,2468,02468_2454,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,United States,South,Alabama,Hoover,35244,400000,60000
+1363,Doctor Earl Roy,Consumer,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1363,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,US,South,Florida,Casselberry,32707,500000,60000
+2684,Doctor Edna Michael,Small Business,Single,Male,5-Feb-93,12/30/2012,,2468,02468_2684,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,United States,South,Florida,Port Charlotte,33952,400000,60000
+1739,Doctor Edna Pierce,Corporate,Single,Male,7-Dec-91,12/31/2008,,98765,98765_1739,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,US,South,North Carolina,Goldsboro,27534,200000,72000
+678,Doctor Edward McKenzie,Corporate,Single,Male,5-Feb-90,1/1/2007,,13579,13579_678,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,USA,South,Virginia,Rose Hill,24281,500000,60000
+2848,Doctor Eileen Dalton,Corporate,Married,Male,5-Feb-92,12/29/2011,,2468,02468_2848,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,USA,South,Tennessee,Columbia,38401,400000,60000
+2069,Doctor Elsie Boykin,Consumer,Single,Male,5-Feb-92,12/29/2011,,2468,02468_2069,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,USA,South,Kentucky,Fort Thomas,41075,400000,60000
+2488,Doctor Gordon Walker,Consumer,Single,Male,5-Feb-90,1/1/2007,,13579,13579_2488,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,US,South,Arkansas,Cabot,72023,500000,60000
+2880,Doctor Grace Black,Small Business,Married,Male,7-Dec-91,12/31/2008,,98765,98765_2880,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,US,South,Florida,North Miami Beach,33160,200000,72000
+2540,Doctor Helen Ferguson,Home Office,Single,Male,5-Feb-90,1/1/2007,,13579,13579_2540,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,Florida,Winter Springs,32708,500000,60000
+3169,Doctor Janice Boswell,Small Business,Married,Male,5-Feb-90,1/1/2007,,13579,13579_3169,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,Florida,Port Orange,32127,500000,60000
+2044,Doctor Jay Simon,Corporate,Single,Male,5-Feb-92,12/29/2011,,2468,02468_2044,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,US,South,Arkansas,Rogers,72756,400000,60000
+1554,Doctor Joan Floyd,Consumer,Single,Female,7-Dec-89,12/31/2006,,98765,98765_1554,2000,12/31/2006,12/27/2029,1/31/2010,3/2/2010,US,South,Mississippi,Gulfport,39503,200000,72000
+2770,Doctor Joel Burnette,Corporate,Single,Female,5-Feb-89,1/1/2006,,13579,13579_2770,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,US,South,Georgia,Dunwoody,30338,500000,60000
+1531,Doctor Jon Ayers,Consumer,Single,Female,5-Feb-92,12/31/2008,,13579,13579_1531,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,USA,South,Florida,Palm Coast,32137,500000,60000
+1634,Doctor Katherine W Epstein,Home Office,Single,Female,5-Feb-87,12/30/2006,,2468,02468_1634,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,USA,South,Mississippi,Jackson,39212,400000,60000
+2481,Doctor Kelly Sawyer,Corporate,Single,Female,5-Feb-90,1/1/2007,,13579,13579_2481,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,USA,South,Louisiana,Lafayette,70506,500000,60000
+2578,Doctor Kent Gill,Home Office,Single,Female,7-Dec-87,12/31/2004,,98765,98765_2578,2000,12/31/2004,12/27/2027,1/31/2008,3/1/2008,USA,South,Alabama,Opelika,36801,200000,72000
+2308,Doctor Laurence Cummings,Small Business,Single,Female,5-Feb-88,12/31/2004,,13579,13579_2308,5000,12/31/2004,12/27/2027,3/31/2008,4/10/2008,US,South,Florida,Lehigh Acres,33971,500000,60000
+3105,Doctor Lawrence Hester,Home Office,Single,Female,5-Feb-95,12/30/2014,,2468,02468_3105,60000,12/30/2014,12/27/2034,6/30/2015,7/20/2015,USA,South,Kentucky,Murray,42071,400000,60000
+1185,Doctor Lee Xu,Consumer,Single,Female,5-Feb-94,1/1/2011,,13579,13579_1185,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,United States,South,Alabama,Madison,35756,500000,60000
+803,Doctor Marianne Goldstein,Small Business,Single,Female,5-Feb-89,12/30/2008,,2468,02468_803,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,US,South,Florida,New Smyrna Beach,32168,400000,60000
+1971,Doctor Marsha Roy,Corporate,Single,Female,5-Feb-90,1/1/2007,,13579,13579_1971,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,USA,South,Mississippi,Tupelo,38801,500000,60000
+1815,Doctor Marvin Yang,Home Office,Single,Female,5-Feb-95,12/30/2014,,2468,02468_1815,60000,12/30/2014,12/27/2034,6/30/2015,7/20/2015,USA,South,Mississippi,Pearl,39208,400000,60000
+3255,Doctor Maureen Whitley,Home Office,Single,Female,5-Feb-96,12/29/2015,,2468,02468_3255,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,United States,South,Florida,Tamarac,33319,400000,60000
+2240,Doctor Maurice Kelly,Corporate,Single,Female,5-Feb-86,1/1/2003,,13579,13579_2240,5000,1/1/2003,12/27/2025,4/1/2006,4/11/2006,US,South,Florida,Lakeland,33801,500000,60000
+1018,Doctor Meredith Humphrey,Home Office,Single,Female,5-Feb-98,1/1/2015,,13579,13579_1018,5000,1/1/2015,12/27/2037,4/1/2018,4/11/2018,US,South,North Carolina,Cary,27511,500000,60000
+2968,Doctor Miriam Bowman,Small Business,Single,Female,5-Feb-92,12/31/2008,,13579,13579_2968,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,United States,South,Florida,Hollywood,33021,500000,60000
+829,Doctor Monica Law Thompson,Corporate,Single,Female,5-Feb-87,1/1/2004,,13579,13579_829,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,United States,South,Arkansas,Texarkana,71854,500000,60000
+1919,Doctor Nathan Jenkins,Home Office,Single,Female,5-Feb-98,12/30/2017,,2468,02468_1919,60000,12/30/2017,12/27/2037,6/30/2018,7/20/2018,United States,South,Arkansas,Pine Bluff,71603,400000,60000
+2258,Doctor Nicole Pope,Corporate,Single,Female,5-Feb-99,12/30/2018,,2468,02468_2258,60000,12/30/2018,12/27/2038,6/30/2019,7/20/2019,United States,South,North Carolina,Rocky Mount,27801,400000,60000
+2114,Doctor Paige Mason,Corporate,Single,Female,5-Feb-98,1/1/2015,,13579,13579_2114,5000,1/1/2015,12/27/2037,4/1/2018,4/11/2018,US,South,Virginia,Norfolk,23518,500000,60000
+568,Doctor Peter McConnell,Consumer,Single,Female,5-Feb-88,12/31/2004,,13579,13579_568,5000,12/31/2004,12/27/2027,3/31/2008,4/10/2008,United States,South,Mississippi,Columbus,39701,500000,60000
+1502,Doctor Renee Huang,Small Business,Single,Female,5-Feb-95,12/30/2014,,2468,02468_1502,60000,12/30/2014,12/27/2034,6/30/2015,7/20/2015,United States,South,Florida,Coral Springs,33065,400000,60000
+3285,Doctor Ricky Garner,Consumer,Single,Female,5-Feb-95,1/1/2012,,13579,13579_3285,5000,1/1/2012,12/27/2034,4/1/2015,4/11/2015,USA,South,Virginia,Herndon,20170,500000,60000
+2621,Doctor Robyn Hayes,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_2621,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,US,South,Tennessee,Brentwood,37027,500000,60000
+2787,Doctor Rodney Kearney,Consumer,Single,Female,5-Feb-92,12/29/2011,,2468,02468_2787,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,United States,South,Louisiana,Metairie,70003,400000,60000
+1267,Doctor Rosemary Branch,Corporate,Single,Female,5-Feb-93,12/30/2012,,2468,02468_1267,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,USA,South,Florida,Boca Raton,33433,400000,60000
+1719,Doctor Russell W Melton,Corporate,Single,Female,5-Feb-94,12/30/2013,,2468,02468_1719,60000,12/30/2013,12/27/2033,6/30/2014,7/20/2014,USA,South,Alabama,Northport,35473,400000,60000
+1910,Doctor Sean Stephenson,Home Office,Single,Female,5-Feb-91,1/1/2008,,13579,13579_1910,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,US,South,Georgia,Peachtree City,30269,500000,60000
+1711,Doctor Sharon Long,Corporate,Single,Female,7-Dec-86,12/31/2003,,98765,98765_1711,2000,12/31/2003,12/27/2026,1/31/2007,3/2/2007,United States,South,Georgia,Marietta,30062,200000,72000
+1574,Doctor Sherry Hurley,Consumer,Single,Female,5-Feb-89,12/30/2008,,2468,02468_1574,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,United States,South,North Carolina,Fayetteville,28314,400000,60000
+2183,Doctor Sheryl Reese,Home Office,Single,Female,5-Feb-91,1/1/2008,,13579,13579_2183,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,USA,South,Kentucky,Owensboro,42301,500000,60000
+3187,Doctor Sidney Gilliam,Small Business,Single,Female,7-Dec-94,12/31/2011,,98765,98765_3187,2000,12/31/2011,12/27/2034,1/31/2015,3/2/2015,USA,South,Florida,Riverview,33569,200000,72000
+1672,Doctor Sidney Scarborough,Small Business,Single,Female,5-Feb-90,1/1/2007,,13579,13579_1672,5000,1/1/2007,12/27/2029,4/1/2010,4/29/2010,US,South,Virginia,Charlottesville,22901,500000,60000
+983,Doctor Sue Drake,Corporate,Single,Female,5-Feb-89,12/30/2008,,2468,02468_983,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,USA,South,Arkansas,Searcy,72143,400000,60000
+1788,Doctor Valerie Siegel,Consumer,Single,Female,5-Feb-98,12/30/2017,,2468,02468_1788,60000,12/30/2017,12/27/2037,6/30/2018,7/20/2018,United States,South,Georgia,Woodstock,30188,400000,60000
+2420,Doctor Wesley Cho,Consumer,Single,Female,5-Feb-98,1/1/2015,,13579,13579_2420,5000,1/1/2015,12/27/2037,4/1/2018,4/11/2018,US,South,Virginia,Richmond,23223,500000,60000
+2882,Dr. Andrew Gonzalez,Consumer,Married,Male,5-Feb-96,12/29/2015,,2468,02468_2882,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,U.S,South,North Carolina,Charlotte,28206,400000,60000
+3194,Dr. Angela Rose,Consumer,Married,Female,5-Feb-91,1/1/2008,,13579,13579_3194,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S.A,South,Florida,Spring Hill,34609,500000,60000
+3379,Dr. Annette McIntyre,Home Office,Married,Female,5-Feb-90,1/1/2007,,13579,13579_3379,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States Of America,South,Georgia,Kennesaw,30144,500000,60000
+2655,Dr. Benjamin Lam,Corporate,Single,Male,5-Feb-95,1/1/2012,,13579,13579_2655,5000,1/1/2012,12/27/2034,4/1/2015,4/11/2015,U.S,South,Georgia,Atlanta,30318,500000,60000
+508,Dr. Cameron Owens,Corporate,Single,Male,7-Dec-89,12/31/2006,,98765,98765_508,2000,12/31/2006,12/27/2029,1/31/2010,3/2/2010,U.S,South,Kentucky,Covington,41011,200000,72000
+1556,Dr. Carol Wood,Consumer,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1556,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S,South,Virginia,Alexandria,22304,500000,60000
+3303,Dr. Carole Creech,Home Office,Divorced,Male,6-Feb-90,1/2/2007,,13579,13579_3303,5000,1/2/2007,12/28/2029,4/2/2010,4/12/2010,U.S.A,South,Florida,Lake Worth,33461,500000,60000
+2345,Dr. Colleen Marsh,Corporate,Single,Female,7-Dec-89,12/31/2006,,98765,98765_2345,2000,12/31/2006,12/27/2029,1/31/2010,3/2/2010,U.S, ,Kentucky,Paducah,42003,200000,72000
+851,Doctor. Helen H Heller,Corporate,Single,Male,5-Feb-94,1/1/2011,,13579,13579_851,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,United States, ,California,Hacienda Heights,91745,500000,60000
+1650,Dr. Dan Lamm,Corporate,Single,Male,5-Feb-91,12/30/2010,,2468,02468_1650,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S.A,South,North Carolina,Asheboro,27203,400000,60000
+2526,Dr. Derek Sweeney,Corporate,Single,Male,10-Feb-90,1/6/2007,,13579,13579_2526,5000,1/6/2007,1/1/2030,4/6/2010,4/16/2010,U.S,South,Louisiana,Lafayette,70506,500000,60000
+2193,Dr. Donald Melton,Home Office,Single,Male,5-Feb-90,12/30/2009,,2468,02468_2193,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,U.S.A,South,North Carolina,New Bern,28560,400000,60000
+1927,Dr. Earl Alston,Home Office,Single,Male,8-Dec-90,1/1/2008,,98765,98765_1927,2000,1/1/2008,12/28/2030,2/1/2011,3/3/2011,United States Of America,South,South Carolina,Greenville,29611,200000,72000
+3331,Dr. Elisabeth Shaw,Corporate,Married,Male,5-Feb-92,12/31/2008,,13579,13579_3331,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S,South,Florida,Ormond Beach,32174,500000,60000
+2724,Dr. Erika Clapp,Home Office,Single,Male,5-Feb-92,12/31/2008,,13579,13579_2724,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S.A,South,Tennessee,Chattanooga,37421,500000,60000
+3154,Dr. Faye Manning,Corporate,Married,Male,5-Feb-92,12/31/2008,,13579,13579_3154,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S,South,Florida,Saint Petersburg,33710,500000,60000
+2260,Dr. Geoffrey H Wong,Corporate,Single,Male,5-Feb-92,12/29/2011,,2468,02468_2260,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,United States Of America,South,Georgia,Rome,30161,400000,60000
+1384,Dr. George McLamb,Consumer,Single,Male,5-Feb-92,12/31/2008,,13579,13579_1384,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S,South,Virginia,Alexandria,22304,500000,60000
+1745,Dr. Herbert Holden,Consumer,Single,Male,5-Feb-92,12/29/2011,,2468,02468_1745,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,U.S,South,Georgia,Atlanta,30305,400000,60000
+1802,Dr. Jack Morse,Corporate,Single,Male,5-Feb-93,1/1/2010,,13579,13579_1802,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,United States Of America,South,Florida,Dunedin,34698,500000,60000
+2254,Dr. Jeff Meadows,Corporate,Single,Male,5-Feb-92,12/31/2008,,13579,13579_2254,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S,South,Kentucky,Paducah,42003,500000,60000
+2115,Dr. Jeffrey Lloyd,Corporate,Single,Male,7-Dec-91,12/31/2008,,98765,98765_2115,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,U.S,South,Virginia,Oakton,22124,200000,72000
+1721,Dr. Jennifer Zimmerman,Corporate,Single,Male,5-Feb-89,1/1/2006,,13579,13579_1721,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,U.S.A,South,Arkansas,Jonesboro,72401,500000,60000
+2858,Dr. Jerry Webster,Corporate,Married,Male,5-Feb-93,1/1/2010,,13579,13579_2858,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,U.S.A,South,Florida,Fruit Cove,32259,500000,60000
+2456,Dr. Joan Beach,Home Office,Single,Female,7-Dec-91,12/31/2008,,98765,98765_2456,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,United States Of America,South,Alabama,Mobile,36608,200000,72000
+1038,Dr. Jon Hale,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_1038,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,U.S,South,Florida,Belle Glade,33430,500000,60000
+750,Dr. Jordan Wilkinson,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_750,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,U.S.A,South,Kentucky,Florence,41042,500000,60000
+2543,Dr. Josephine Dalton,Small Business,Single,Female,5-Feb-91,12/30/2010,,2468,02468_2543,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,United States Of America,South,Virginia,Richmond,23223,400000,60000
+806,Dr. Judy Singer,Small Business,Single,Female,5-Feb-89,12/30/2008,,2468,02468_806,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,U.S,South,Florida,Miami,33132,400000,60000
+2417,Dr. Ken H Frazier,Consumer,Single,Female,5-Feb-93,12/30/2012,,2468,02468_2417,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,U.S.A,South,Virginia,Oakton,22124,400000,60000
+2441,Dr. Kenneth Capps,Consumer,Single,Female,7-Dec-93,12/31/2010,,98765,98765_2441,2000,12/31/2010,12/27/2033,1/31/2014,3/2/2014,U.S,South,Florida,Melbourne,32935,200000,72000
+2049,Dr. Kenneth Pollock,Corporate,Single,Female,5-Feb-96,12/31/2012,,13579,13579_2049,5000,12/31/2012,12/27/2035,3/31/2016,4/10/2016,U.S,South,Virginia,Harrisonburg,22801,500000,60000
+2771,Dr. Kevin Wolfe,Corporate,Single,Female,5-Feb-89,1/1/2006,,13579,13579_2771,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,U.S,South,Georgia,East Point,30344,500000,60000
+1526,Dr. Larry Hall,Home Office,Single,Female,5-Feb-96,12/31/2012,,13579,13579_1526,5000,12/31/2012,12/27/2035,3/31/2016,4/10/2016,United States Of America,South,Alabama,Birmingham,35211,500000,60000
+2286,Dr. Larry Langston,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_2286,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,U.S.A,South,South Carolina,Spartanburg,29301,500000,60000
+1551,Dr. Laurence Flowers,Consumer,Single,Female,5-Feb-89,1/1/2006,,13579,13579_1551,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,U.S.A,South,Mississippi,Biloxi,39530,500000,60000
+3170,Dr. Lawrence Haas,Corporate,Single,Female,5-Feb-92,12/31/2008,,13579,13579_3170,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,United States Of America,South,Florida,Port Saint Lucie,34952,500000,60000
+2143,Dr. Lester Sawyer,Home Office,Single,Female,5-Feb-88,12/31/2004,,13579,13579_2143,5000,12/31/2004,12/27/2027,3/31/2008,4/10/2008,United States Of America,South,Virginia,Fairfax,20151,500000,60000
+1984,Dr. Lynne Wilcox,Consumer,Single,Female,5-Feb-88,12/29/2007,,2468,02468_1984,60000,12/29/2007,12/27/2027,6/29/2008,7/19/2008,U.S.A,South,South Carolina,Hilton Head Island,29915,400000,60000
+1916,Dr. Marcia Feldman,Home Office,Single,Female,5-Feb-87,12/30/2006,,2468,02468_1916,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,U.S,South,Arkansas,Little Rock,72209,400000,60000
+2813,Dr. Marjorie Burnette,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_2813,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,United States Of America,South,Tennessee,Cleveland,37311,500000,60000
+2579,Dr. Marshall Sutherland,Home Office,Single,Female,7-Dec-94,12/31/2011,,98765,98765_2579,2000,12/31/2011,12/27/2034,1/31/2015,3/2/2015,U.S.A,South,Alabama,Phenix City,36869,200000,72000
+1693,Dr. Melinda Thornton,Consumer,Single,Female,5-Feb-91,1/1/2008,,13579,13579_1693,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,Virginia,Reston,20190,500000,60000
+1849,Dr. Michelle Steele,Consumer,Single,Female,5-Feb-91,12/30/2010,,2468,02468_1849,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S.A,South,Alabama,Enterprise,36330,400000,60000
+2369,Dr. Mike G Hartman,Consumer,Single,Female,5-Feb-92,12/31/2008,,13579,13579_2369,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,United States Of America,South,Florida,Pembroke Pines,33024,500000,60000
+665,Dr. Miriam Mueller,Corporate,Single,Female,7-Dec-96,12/31/2013,,98765,98765_665,2000,12/31/2013,12/27/2036,1/31/2017,3/2/2017,United States Of America,South,Tennessee,Murfreesboro,37130,200000,72000
+2097,Dr. Patsy Shea,Home Office,Single,Female,5-Feb-87,12/30/2006,,2468,02468_2097,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,U.S.A,South,South Carolina,Hilton Head Island,29915,400000,60000
+907,Dr. Rachel Casey,Home Office,Single,Female,5-Feb-89,1/1/2006,,13579,13579_907,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,United States Of America,South,Kentucky,Henderson,42420,500000,60000
+1712,Dr. Regina Langley,Corporate,Single,Female,5-Feb-90,1/1/2007,,13579,13579_1712,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States Of America,South,Georgia,Martinez,30907,500000,60000
+2484,Dr. Rhonda Bryant,Corporate,Single,Female,5-Feb-97,1/1/2014,,13579,13579_2484,5000,1/1/2014,12/27/2036,4/1/2017,4/11/2017,U.S.A,South,Florida,Winter Haven,33881,500000,60000
+3279,Dr. Ricky Allred,Home Office,Single,Female,5-Feb-93,12/30/2012,,2468,02468_3279,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,United States Of America,South,South Carolina,Columbia,29203,400000,60000
+3053,Dr. Robin Tyler,Corporate,Single,Female,5-Feb-89,12/30/2008,,2468,02468_3053,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,United States Of America,South,Kentucky,Murray,42071,400000,60000
+3225,Dr. Robyn Crawford,Small Business,Single,Female,5-Feb-90,1/1/2007,,13579,13579_3225,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S,South,Tennessee,Germantown,38138,500000,60000
+2696,Dr. Sally Dunn,Home Office,Single,Female,7-Dec-87,12/31/2004,,98765,98765_2696,2000,12/31/2004,12/27/2027,1/31/2008,3/1/2008,United States Of America,South,Alabama,Tuscaloosa,35401,200000,72000
+1194,Dr. Sidney Brewer,Small Business,Single,Female,5-Feb-94,1/1/2011,,13579,13579_1194,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,United States Of America,South,Florida,Immokalee,34142,500000,60000
+1014,Dr. Theresa Winters,Home Office,Single,Female,5-Feb-92,12/31/2008,,13579,13579_1014,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S.A,South,Arkansas,Bryant,72022,500000,60000
+1347,Dr. Vivian Goldstein,Home Office,Single,Female,5-Feb-87,1/1/2004,,13579,13579_1347,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,U.S.A,South,Florida,Brandon,33511,500000,60000
+3113,Dr. Wayne English,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_3113,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S.A,South,Louisiana,New Iberia,70560,500000,60000
+228,Miss. Colleen Andrews,Small Business,Single,Female,8-Dec-89,1/1/2007,,98765,98765_228,2000,1/1/2007,12/28/2029,2/1/2010,3/3/2010,U.S,South,North Carolina,Mint Hill,28227,200000,72000
+228,Miss. Colleen Andrews,Small Business,Single,Female,8-Dec-89,1/1/2007,,98765,98765_228,2000,1/1/2007,12/28/2029,2/1/2010,3/3/2010,U.S,South,North Carolina,Mint Hill,28227,200000,72000
+152,Miss. Kent Kerr,Small Business,Single,Female,5-Feb-91,12/30/2010,,2468,02468_152,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,United States,South,Tennessee,Knoxville,37918,400000,60000
+152,Miss. Kent Kerr,Small Business,Single,Female,5-Feb-91,12/30/2010,,2468,02468_152,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,United States,South,Tennessee,Knoxville,37918,400000,60000
+64,Miss. Lynn Morrow,Small Business,Single,Female,5-Feb-96,12/29/2015,,2468,02468_64,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,US,South,Virginia,Salem,24153,400000,60000
+64,Miss. Lynn Morrow,Small Business,Single,Female,5-Feb-96,12/29/2015,,2468,02468_64,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,US,South,Virginia,Salem,24153,400000,60000
+247,Miss. Marshall Brandt Briggs,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_247,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,USA,South,Tennessee,Maryville,37804,500000,60000
+247,Miss. Marshall Brandt Briggs,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_247,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,USA,South,Tennessee,Maryville,37804,500000,60000
+395,Miss. Monica McCormick,Corporate,Single,Female,5-Feb-89,1/1/2006,,13579,13579_395,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,U.S.A,South,North Carolina,Albemarle,28001,500000,60000
+271,Miss. Sam Rouse,Small Business,Single,Female,5-Feb-94,12/30/2013,,2468,02468_271,60000,12/30/2013,12/27/2033,6/30/2014,7/20/2014,United States,South,Georgia,Forest Park,30297,400000,60000
+375,Miss. Sandra Sharma,Small Business,Single,Female,5-Feb-94,1/1/2011,,13579,13579_375,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,USA,South,Tennessee,Morristown,37814,500000,60000
+497,Miss. Steve McKee,Small Business,Single,Female,5-Feb-94,12/30/2013,,2468,02468_497,60000,12/30/2013,12/27/2033,6/30/2014,7/20/2014,United States Of America,South,Tennessee,Murfreesboro,37130,400000,60000
+166,Miss. Vicki Hauser,Consumer,Single,Female,5-Feb-86,12/30/2005,,2468,02468_166,60000,12/30/2005,12/27/2025,6/30/2006,7/20/2006,United States Of America,South,Tennessee,Lebanon,37087,400000,60000
+166,Miss. Vicki Hauser,Consumer,Single,Female,5-Feb-86,12/30/2005,,2468,02468_166,60000,12/30/2005,12/27/2025,6/30/2006,7/20/2006,United States Of America,South,Tennessee,Lebanon,37087,400000,60000
+123,Mistress Shawn Stern,Home Office,Single,Female,5-Feb-94,1/1/2011,,13579,13579_123,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,USA,South,Virginia,Tysons Corner,22102,500000,60000
+123,Mistress Shawn Stern,Home Office,Single,Female,5-Feb-94,1/1/2011,,13579,13579_123,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,USA,South,Virginia,Tysons Corner,22102,500000,60000
+349,Mistress. Kim Weiss,Home Office,Single,Female,7-Dec-91,12/31/2008,,98765,98765_349,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,U.S,South,Florida,Miami,33132,200000,72000
+1627,Mr. Aaron Day,Corporate,Single,Male,14-Feb-97,1/1/2008,,19181,19181_1354,5000,1/1/2008,12/27/2036,4/1/2011,4/11/2011,United States Of America,South,North Carolina,Wilmington,28403,500000,60000
+1814,Mr. Albert Tyson,Home Office,Married,Male,5-Feb-97,6/29/2011,,19182,19182_697,60000,6/29/2011,1/1/2112,6/29/2012,7/19/2012,US,South,North Carolina,Wilmington,28403,400000,120000
+2062,Mr. Alfred Singh,Corporate,Divorced,Male,7-Dec-97,1/1/2008,,19185,19185_3106,5000,1/1/2008,12/27/2035,4/1/2011,4/11/2011,United States Of America,South,Virginia,Waynesboro,22980,500000,60000
+272,Mr. Eleanor Swain,Home Office,Single,Male,5-Feb-93,1/1/2010,,13579,13579_272,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,United States Of America,South,North Carolina,Charlotte,28204,500000,60000
+151,Mr. Geoffrey Zhu,Home Office,Single,Male,5-Feb-90,1/1/2007,,13579,13579_151,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Tennessee,Kingsport,37664,500000,60000
+151,Mr. Geoffrey Zhu,Home Office,Single,Male,5-Feb-90,1/1/2007,,13579,13579_151,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Tennessee,Kingsport,37664,500000,60000
+342,Mr. Jacqueline Noble,Corporate,Single,Male,5-Feb-89,1/1/2006,,13579,13579_342,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,US,South,Florida,Miami,33181,500000,60000
+169,Mr. Janice Cole,Corporate,Single,Male,5-Feb-93,1/1/2010,,13579,13579_169,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,US,South,Louisiana,Baton Rouge,70802,500000,60000
+169,Mr. Janice Cole,Corporate,Single,Male,5-Feb-93,1/1/2010,,13579,13579_169,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,US,South,Louisiana,Baton Rouge,70802,500000,60000
+3320,Mrs. Alicia Maynard,Small Business,Married,Female,5-Feb-97,12/31/2008,,19186,19186_597,5000,12/31/2008,12/27/2037,3/31/2012,4/10/2012,United States Of America,South,North Carolina,Charlotte,28206,500000,60000
+258,Mrs. Allan Shields,Consumer,Married,Male,5-Feb-95,12/30/2014,,2468,02468_258,60000,12/30/2014,12/27/2034,6/30/2015,7/20/2015,U.S.A,South,Florida,Seminole,33772,400000,60000
+258,Mrs. Allan Shields,Consumer,Married,Male,5-Feb-95,12/30/2014,,2468,02468_258,60000,12/30/2014,12/27/2034,6/30/2015,7/20/2015,U.S.A,South,Florida,Seminole,33772,400000,60000
+471,Mrs. Ross Simpson,Consumer,Single,Female,5-Feb-88,12/29/2007,,2468,02468_471,60000,12/29/2007,12/27/2027,6/29/2008,7/19/2008,United States,South,Georgia,Atlanta,30318,400000,60000
+92,Mrs. Victoria Baker Hoover,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_92,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,Louisiana,Terrytown,70056,500000,60000
+92,Mrs. Victoria Baker Hoover,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_92,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,Louisiana,Terrytown,70056,500000,60000
+2778,Prof. Alison Jones,Consumer,Married,Male,5-Feb-98,12/30/2017,,2468,02468_2778,60000,12/30/2017,12/27/2037,6/30/2018,7/20/2018,USA,South,North Carolina,Wilmington,28403,400000,60000
+2593,Prof. Anne Schultz,Corporate,Married,Female,5-Feb-90,12/30/2009,,2468,02468_2593,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,United States,South,Georgia,Athens,30605,400000,60000
+3226,Prof. Arthur Gold,Small Business,Married,Male,5-Feb-92,12/29/2011,,2468,02468_3226,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,USA,South,Tennessee,Hendersonville,37075,400000,60000
+1015,Prof. Beverly Cameron,Home Office,Single,Female,6-Feb-90,1/2/2007,,13579,13579_1015,5000,1/2/2007,12/28/2029,4/2/2010,4/12/2010,United States,South,North Carolina,Apex,27502,500000,60000
+2840,Prof. Bob Berg,Corporate,Single,Male,5-Feb-92,12/31/2008,,13579,13579_2840,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,US,South,Florida,North Miami,33161,500000,60000
+2859,Prof. Brad H Blake,Corporate,Single,Male,7-Feb-92,1/2/2009,,13579,13579_2859,5000,1/2/2009,12/29/2031,4/2/2012,4/12/2012,United States,South,Florida,Gainesville,32601,500000,60000
+1241,Prof. Bradley Schroeder,Small Business,Single,Male,5-Feb-90,12/30/2009,,2468,02468_1241,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,US,South,Alabama,Auburn,36830,400000,60000
+910,Prof. Carla Hauser,Corporate,Single,Male,6-Feb-90,1/2/2007,,13579,13579_910,5000,1/2/2007,12/28/2029,4/2/2010,4/12/2010,US,South,Arkansas,Texarkana,71854,500000,60000
+2268,Prof. Carlos Adkins,Small Business,Single,Male,9-Dec-89,1/2/2007,,98765,98765_2268,2000,1/2/2007,12/29/2029,2/2/2010,3/4/2010,US,South,Florida,Land O Lakes,34639,200000,72000
+1670,Prof. Carolyn Bowling,Small Business,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1670,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,Virginia,Blacksburg,24060,500000,60000
+2122,Prof. Carolyn Fisher,Consumer,Single,Male,6-Feb-90,1/1/2010,,2468,02468_2122,60000,1/1/2010,12/28/2029,7/1/2010,7/21/2010,USA,South,Arkansas,Sherwood,72116,400000,60000
+823,Prof. Christian Albright,Small Business,Single,Female,8-Dec-90,1/1/2008,,98765,98765_823,2000,1/1/2008,12/28/2030,2/1/2011,3/3/2011,USA,South,Tennessee,Smyrna,37167,200000,72000
+3338,Prof. Constance Robertson,Consumer,Divorced,Female,6-Feb-92,1/1/2009,,13579,13579_3338,5000,1/1/2009,12/28/2031,4/1/2012,4/11/2012,USA,South,Florida,Tampa,33614,500000,60000
+1737,Prof. Danielle Myers,Corporate,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1737,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,North Carolina,Garner,27529,500000,60000
+751,Prof. David Wrenn,Corporate,Single,Male,8-Dec-92,1/1/2010,,98765,98765_751,2000,1/1/2010,12/28/2032,2/1/2013,3/3/2013,United States,South,Kentucky,Georgetown,40324,200000,72000
+2393,Prof. Debbie Dillon,Corporate,Single,Male,7-Dec-89,12/31/2006,,98765,98765_2393,2000,12/31/2006,12/27/2029,1/31/2010,3/2/2010,US,South,Georgia,Roswell,30076,200000,72000
+666,Prof. Emily Sims,Corporate,Single,Male,5-Feb-92,12/31/2008,,13579,13579_666,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,US,South,Tennessee,Nashville,37211,500000,60000
+3380,Prof. Eva Decker,Home Office,Married,Male,7-Dec-90,12/31/2007,,98765,98765_3380,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,US,South,Georgia,La Grange,30240,200000,72000
+1552,Prof. Gary Koch,Small Business,Single,Male,7-Dec-91,12/31/2008,,98765,98765_1552,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,United States,South,Mississippi,Clinton,39056,200000,72000
+1060,Prof. Gene Gilliam,Small Business,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1060,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,USA,South,Georgia,Atlanta,30318,500000,60000
+524,Prof. Gina McKnight,Consumer,Single,Male,5-Feb-90,12/30/2009,,2468,02468_524,60000,12/30/2009,12/27/2029,6/30/2010,7/20/2010,USA,South,Tennessee,Farragut,37922,400000,60000
+1928,Prof. Gregory R Snow,Home Office,Single,Male,5-Feb-92,12/31/2008,,13579,13579_1928,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,US,South,South Carolina,Greer,29651,500000,60000
+2527,Prof. Gretchen Orr,Corporate,Single,Male,5-Feb-91,1/1/2008,,13579,13579_2527,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,USA, ,Louisiana,Lake Charles,70601,500000,60000
+1997,Prof. Harriet Bowman,Consumer,Single,Male,5-Feb-94,1/1/2011,,13579,13579_1997,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,United States,South,South Carolina,Hilton Head Island,29915,500000,60000
+1697,Prof. Holly Osborne,Home Office,Single,Male,5-Feb-89,1/1/2006,,13579,13579_1697,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,USA,South,Arkansas,Hot Springs,71901,500000,60000
+2486,Prof. Jack Horn,Small Business,Single,Male,7-Dec-91,12/31/2008,,98765,98765_2486,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,United States,South,Georgia,Statesboro,30458,200000,72000
+1350,Prof. Jackie Burke,Home Office,Single,Male,7-Dec-88,12/31/2005,,98765,98765_1350,2000,12/31/2005,12/27/2028,1/31/2009,3/2/2009,United States,South,Florida,Carol City,33055,200000,72000
+3176,Prof. Jackie McCullough,Consumer,Married,Male,5-Feb-91,1/1/2008,,13579,13579_3176,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,US,South,Florida,Jacksonville,32216,500000,60000
+1557,Prof. James Nicholson,Consumer,Single,Male,5-Feb-93,12/30/2012,,2468,02468_1557,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,USA,South,Virginia,Annandale,22003,400000,60000
+3119,Prof. Jay Hubbard,Corporate,Married,Male,7-Dec-90,12/31/2007,,98765,98765_3119,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,United States,South,Florida,Orlando,32839,200000,72000
+2464,Prof. Joe George,Consumer,Single,Female,5-Feb-92,12/31/2008,,13579,13579_2464,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,US,South,Louisiana,Bossier City,71111,500000,60000
+3155,Prof. Julian Keith Mayer,Consumer,Married,Female,5-Feb-96,12/29/2015,,2468,02468_3155,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,USA,South,Florida,Sanford,32771,400000,60000
+2725,Prof. Katharine Hudson,Home Office,Single,Female,5-Feb-96,12/31/2012,,13579,13579_2725,5000,12/31/2012,12/27/2035,3/31/2016,4/10/2016,United States,South,Tennessee,Clarksville,37042,500000,60000
+2145,Prof. Kerry Hardy,Corporate,Single,Female,7-Dec-96,12/31/2013,,98765,98765_2145,2000,12/31/2013,12/27/2036,1/31/2017,3/2/2017,US,South,Florida,Fort Lauderdale,33311,200000,72000
+2418,Prof. Kyle Fink,Consumer,Single,Female,5-Feb-93,1/1/2010,,13579,13579_2418,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,United States,South,Virginia,Petersburg,23805,500000,60000
+2928,Prof. Leslie Woodard,Consumer,Single,Female,5-Feb-98,1/1/2015,,13579,13579_2928,5000,1/1/2015,12/27/2037,4/1/2018,4/11/2018,USA,South,South Carolina,Charleston,29418,500000,60000
+1873,Prof. Lisa Kim,Corporate,Single,Female,5-Feb-99,1/1/2016,,13579,13579_1873,5000,1/1/2016,12/27/2038,4/1/2019,4/11/2019,United States,South,Florida,Palm Beach Gardens,33403,500000,60000
+2671,Prof. Lloyd Fuller,Home Office,Single,Female,5-Feb-94,1/1/2011,,13579,13579_2671,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,USA,South,Tennessee,Brentwood,37027,500000,60000
+2256,Prof. Lloyd Levin,Corporate,Single,Female,7-Dec-95,12/31/2012,,98765,98765_2256,2000,12/31/2012,12/27/2035,1/31/2016,3/1/2016,USA,South,North Carolina,New Bern,28560,200000,72000
+1632,Prof. Lori Wolfe,Home Office,Single,Female,5-Feb-92,12/31/2008,,13579,13579_1632,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,US,South,Mississippi,Hattiesburg,39401,500000,60000
+2058,Prof. Louise Webster Sharma,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_2058,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,USA,South,North Carolina,Hickory,28601,500000,60000
+3319,Prof. Marlene Davidson,Small Business,Single,Female,5-Feb-95,1/1/2012,,13579,13579_3319,5000,1/1/2012,12/27/2034,4/1/2015,4/11/2015,United States,South,Tennessee,Hendersonville,37075,500000,60000
+1764,Prof. Michele Bradshaw,Consumer,Single,Female,7-Dec-96,12/31/2013,,98765,98765_1764,2000,12/31/2013,12/27/2036,1/31/2017,3/2/2017,USA,South,Florida,Dunedin,34698,200000,72000
+2442,Prof. Natalie Aldridge,Consumer,Single,Female,5-Feb-94,12/30/2013,,2468,02468_2442,60000,12/30/2013,12/27/2033,6/30/2014,7/20/2014,USA,South,Florida,Merritt Island,32953,400000,60000
+1527,Prof. Neil Parker,Home Office,Single,Female,5-Feb-89,12/30/2008,,2468,02468_1527,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,US,South,Alabama,Decatur,35601,400000,60000
+2545,Prof. Rick Ellis,Home Office,Single,Female,5-Feb-87,12/30/2006,,2468,02468_2545,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,US,South,Virginia,Springfield,22153,400000,60000
+2697,Prof. Ricky W Clements,Corporate,Single,Female,5-Feb-87,12/30/2006,,2468,02468_2697,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,US,South,Alabama,Vestavia Hills,35216,400000,60000
+1713,Prof. Rosemary Stark,Corporate,Single,Female,5-Feb-97,6/30/2016,,2468,02468_1713,60000,6/30/2016,12/27/2036,6/30/2017,7/20/2017,US,South,Georgia,Newnan,30265,400000,120000
+2287,Prof. Samuel Newman,Corporate,Single,Female,5-Feb-89,1/1/2006,,13579,13579_2287,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,United States,South,South Carolina,Summerville,29483,500000,60000
+3221,Prof. Sean Pugh,Corporate,Single,Female,5-Feb-90,1/1/2007,,13579,13579_3221,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,Florida,Sunrise,33322,500000,60000
+2209,Prof. Sharon Thomas,Home Office,Single,Female,5-Feb-90,1/1/2007,,13579,13579_2209,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States,South,Georgia,College Park,30337,500000,60000
+1459,Prof. Steve Raynor,Consumer,Single,Female,5-Feb-96,12/29/2015,,2468,02468_1459,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,USA,South,South Carolina,Taylors,29687,400000,60000
+2346,Prof. Sylvia Kumar,Corporate,Single,Female,7-Dec-96,12/31/2013,,98765,98765_2346,2000,12/31/2013,12/27/2036,1/31/2017,3/2/2017,USA,South,Kentucky,Pleasure Ridge Park,40258,200000,72000
+3086,Prof. Ted Durham,Consumer,Single,Female,5-Feb-89,12/30/2008,,2468,02468_3086,60000,12/30/2008,12/27/2028,6/30/2009,7/20/2009,US,South,Florida,North Port,34287,400000,60000
+2063,Prof. Todd D Norris,Corporate,Single,Female,5-Feb-98,12/30/2017,,2468,02468_2063,60000,12/30/2017,12/27/2037,6/30/2018,7/20/2018,US,South,Virginia,Newport News,23602,400000,60000
+1917,Prof. Tracy Buckley,Home Office,Single,Female,7-Dec-86,12/31/2003,,98765,98765_1917,2000,12/31/2003,12/27/2026,1/31/2007,3/2/2007,USA,South,Arkansas,North Little Rock,72113,200000,72000
+2098,Prof. Tracy Dyer,Home Office,Single,Female,7-Dec-86,12/31/2003,,98765,98765_2098,2000,12/31/2003,12/27/2026,1/31/2007,3/2/2007,United States,South,South Carolina,Mount Pleasant,29464,200000,72000
+3283,Prof. William Woodard,Corporate,Single,Female,5-Feb-98,1/1/2015,,13579,13579_3283,5000,1/1/2015,12/27/2037,4/1/2018,4/11/2018,US,South,Florida,Kendall,33156,500000,60000
+2960,Professor. Allan Dickinson,Corporate,Married,Male,5-Feb-95,1/1/2012,,13579,13579_2960,5000,1/1/2012,12/27/2034,4/1/2015,4/11/2015,U.S.A,South,Arkansas,Van Buren,72956,500000,60000
+2750,Professor. Allen Nash,Small Business,Married,Male,5-Feb-95,1/1/2012,,13579,13579_2750,5000,1/1/2012,12/27/2034,4/1/2015,4/11/2015,United States Of America,South,Virginia,Waynesboro,22980,500000,60000
+2873,Professor. Benjamin Gunter,Small Business,Single,Male,7-Dec-93,12/31/2010,,98765,98765_2873,2000,12/31/2010,12/27/2033,1/31/2014,3/21/2014,United States Of America,South,Florida,Hialeah,33012,200000,72000
+2257,Professor. Bernard Thompson,Corporate,Single,Male,8-Feb-95,1/4/2012,,13579,13579_2257,5000,1/4/2012,12/30/2034,4/4/2015,4/14/2015,U.S.A, ,North Carolina,Raleigh,27604,500000,60000
+2302,Professor. Beth Dolan,Corporate,Single,Female,7-Dec-90,12/31/2007,,98765,98765_2302,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,United States Of America,South,Florida,Panama City,32404,200000,72000
+1959,Professor. Bonnie Matthews Rowland,Home Office,Single,Male,5-Feb-92,12/31/2008,,13579,13579_1959,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,U.S,South,Florida,Miami,33916,500000,60000
+1528,Professor. Brad Stark,Small Business,Single,Male,8-Feb-92,1/3/2009,,13579,13579_1528,5000,1/3/2009,12/30/2031,4/3/2012,4/13/2012,U.S,South,North Carolina,Eden,27288,500000,60000
+1499,Professor. Charlotte L Doyle,Home Office,Single,Male,7-Dec-90,12/31/2007,,98765,98765_1499,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,U.S.A,South,Florida,Coral Gables,33134,200000,72000
+3381,Professor. Christopher Norton Patterson,Home Office,Divorced,Female,5-Feb-90,1/1/2007,,13579,13579_3381,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S,South,Georgia,Macon,31204,500000,60000
+2066,Professor. Claudia Webb,Corporate,Single,Female,5-Feb-91,1/1/2008,,13579,13579_2066,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,North Carolina,Indian Trail,28079,500000,60000
+2146,Professor. Courtney Boyd,Corporate,Single,Male,7-Feb-92,1/2/2009,,13579,13579_2146,5000,1/2/2009,12/29/2031,4/2/2012,4/12/2012,U.S,South,Virginia,Fairfax,20151,500000,60000
+3120,Professor. Daniel Christian,Home Office,Widowed,Male,7-Feb-91,1/3/2008,,13579,13579_3120,5000,1/3/2008,12/29/2030,4/3/2011,4/13/2011,United States Of America,South,Louisiana,New Orleans,70117,500000,60000
+2358,Professor. Danielle Baird,Home Office,Single,Male,5-Feb-90,1/1/2007,,13579,13579_2358,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Florida,Fort Lauderdale,33311,500000,60000
+2443,Professor. Danny Richmond,Corporate,Single,Male,5-Feb-90,1/1/2007,,13579,13579_2443,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Florida,Miami,33142,500000,60000
+1738,Professor. Dean Solomon,Corporate,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1738,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States Of America,South,North Carolina,Gastonia,28052,500000,60000
+3222,Professor. Diane Lu,Corporate,Widowed,Male,5-Feb-92,12/29/2011,,2468,02468_3222,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,United States Of America,South,Florida,Tallahassee,32303,400000,60000
+3248,Professor. Earl Donnelly,Small Business,Married,Male,8-Feb-91,1/4/2008,,13579,13579_3248,5000,1/4/2008,12/30/2030,4/4/2011,4/14/2011,U.S.A,South,Louisiana,Slidell,70458,500000,60000
+2547,Professor. Edna Freeman,Small Business,Single,Male,5-Feb-91,1/1/2008,,13579,13579_2547,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,Virginia,Virginia Beach,23464,500000,60000
+1016,Professor. Francis Sherrill,Home Office,Single,Male,5-Feb-92,12/31/2008,,13579,13579_1016,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,United States Of America,South,North Carolina,Asheville,28806,500000,60000
+2677,Professor. Geoffrey Rivera,Small Business,Single,Male,5-Feb-90,1/1/2007,,13579,13579_2677,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Virginia,Winchester,22601,500000,60000
+1633,Professor. Gerald Raynor,Home Office,Single,Male,5-Feb-91,12/30/2010,,2468,02468_1633,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S,South,Mississippi,Horn Lake,38637,400000,60000
+3100,Professor. Gladys Holloway,Consumer,Married,Male,5-Feb-91,12/30/2010,,2468,02468_3100,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S,South,Florida,Oakland Park,33334,400000,60000
+1918,Professor. Hannah Tyson,Home Office,Single,Male,5-Feb-90,1/1/2007,,13579,13579_1918,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Arkansas,Paragould,72450,500000,60000
+2779,Professor. Jacob Burgess,Corporate,Single,Male,5-Feb-91,12/30/2010,,2468,02468_2779,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S.A,South,North Carolina,Wilson,27893,400000,60000
+1351,Professor. Janet McCullough,Home Office,Single,Male,5-Feb-93,12/30/2012,,2468,02468_1351,60000,12/30/2012,12/27/2032,6/30/2013,7/20/2013,United States Of America,South,Florida,Coconut Creek,33063,400000,60000
+2220,Professor. Jennifer Stanton,Consumer,Single,Male,7-Dec-92,12/31/2009,,98765,98765_2220,2000,12/31/2009,12/27/2032,1/31/2013,3/2/2013,United States Of America,South,Florida,Winter Garden,34787,200000,72000
+535,Professor. Jill Clements,Corporate,Single,Male,5-Feb-91,1/1/2008,,13579,13579_535,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S.A,South,Virginia,Montclair,22025,500000,60000
+824,Professor. Joann Moser,Small Business,Single,Female,7-Dec-90,12/31/2007,,98765,98765_824,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,U.S.A,South,Tennessee,Spring Hill,37174,200000,72000
+2035,Professor. Jon Ward,Consumer,Single,Female,5-Feb-90,1/1/2007,,13579,13579_2035,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,United States Of America,South,Florida,Palm Beach Gardens,33403,500000,60000
+2704,Professor. Juan Gold,Consumer,Single,Female,5-Feb-91,1/1/2008,,13579,13579_2704,5000,1/1/2008,12/27/2030,4/1/2011,4/11/2011,U.S,South,Florida,Pensacola,32503,500000,60000
+1718,Professor. Kathy Shah,Consumer,Single,Female,7-Dec-94,12/31/2011,,98765,98765_1718,2000,12/31/2011,12/27/2034,1/31/2015,3/2/2015,U.S,South,North Carolina,Garner,27529,200000,72000
+1259,Professor. Keith Hobbs,Home Office,Single,Female,5-Feb-87,1/1/2004,,13579,13579_1259,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,U.S,South,Kentucky,Danville,40422,500000,60000
+2270,Professor. Kristine Holden,Small Business,Single,Female,5-Feb-96,12/29/2015,,2468,02468_2270,60000,12/29/2015,12/27/2035,6/29/2016,7/19/2016,U.S,South,South Carolina,Mauldin,29662,400000,60000
+3177,Professor. Laurie Petty,Consumer,Single,Female,5-Feb-90,1/1/2007,,13579,13579_3177,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S,South,Florida,Jupiter,33458,500000,60000
+799,Professor. Lee McKenna Gregory,Consumer,Single,Female,5-Feb-92,12/29/2011,,2468,02468_799,60000,12/29/2011,12/27/2031,6/29/2012,7/19/2012,United States Of America,South,South Carolina,Hilton Head Island,29915,400000,60000
+3339,Professor. Lester Copeland,Consumer,Single,Female,5-Feb-87,1/1/2004,,13579,13579_3339,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,U.S.A,South,Florida,Titusville,32780,500000,60000
+670,Professor. Lewis Baldwin,Home Office,Single,Female,7-Dec-90,12/31/2007,,98765,98765_670,2000,12/31/2007,12/27/2030,1/31/2011,3/2/2011,U.S, ,Virginia,Montclair,22025,200000,72000
+970,Professor. Lynn Payne,Consumer,Single,Female,7-Dec-97,12/31/2014,,98765,98765_970,2000,12/31/2014,12/27/2037,1/31/2018,3/29/2018,U.S,South,Virginia,Rose Hill,24281,200000,72000
+1875,Professor. Martin Kirk,Consumer,Single,Female,5-Feb-87,12/30/2006,,2468,02468_1875,60000,12/30/2006,12/27/2026,6/30/2007,7/20/2007,United States Of America,South,Virginia,Chesapeake,23320,400000,60000
+1852,Dr. Joy Kaplan McNeill,Home Office,Single,Female,5-Feb-89,1/1/2006,,13579,13579_1852,5000,1/1/2006,12/27/2028,4/1/2009,4/11/2009,US, ,California,Carlsbad,92008,500000,60000
+2539,Professor. Max Hubbard,Home Office,Single,Female,5-Feb-87,1/1/2004,,13579,13579_2539,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,U.S.A,South,Florida,Winter Park,32789,500000,60000
+3284,Professor. Michael Shaffer,Corporate,Single,Female,7-Dec-91,12/31/2008,,98765,98765_3284,2000,12/31/2008,12/27/2031,1/31/2012,3/1/2012,U.S,South,Florida,Kissimmee,34741,200000,72000
+2487,Professor. Michelle Bryant Phillips,Small Business,Single,Female,7-Dec-88,12/31/2005,,98765,98765_2487,2000,12/31/2005,12/27/2028,1/31/2009,3/2/2009,United States Of America,South,Georgia,Tucker,30084,200000,72000
+1671,Professor. Mitchell Ross,Small Business,Single,Female,5-Feb-87,1/1/2004,,13579,13579_1671,5000,1/1/2004,12/27/2026,4/1/2007,4/11/2007,United States Of America,South,Virginia,Burke,22015,500000,60000
+2099,Professor. Nathan Fox,Home Office,Single,Female,5-Feb-97,1/1/2014,,13579,13579_2099,5000,1/1/2014,12/27/2036,4/1/2017,4/11/2017,United States Of America,South,South Carolina,Myrtle Beach,29577,500000,60000
+2059,Professor. Nathan Newton,Corporate,Single,Female,5-Feb-88,12/29/2007,,2468,02468_2059,60000,12/29/2007,12/27/2027,6/29/2008,7/19/2008,U.S.A,South,North Carolina,High Point,27260,400000,60000
+2124,Professor. Paige Powers,Corporate,Single,Female,7-Dec-86,12/31/2003,,98765,98765_2124,2000,12/31/2003,12/27/2026,1/31/2007,3/2/2007,U.S.A,South,Arkansas,West Memphis,72301,200000,72000
+2620,Professor. Phyllis Little,Corporate,Single,Female,5-Feb-94,1/1/2011,,13579,13579_2620,5000,1/1/2011,12/27/2033,4/1/2014,4/11/2014,United States Of America,South,Tennessee,Bartlett,38134,500000,60000
+3167,Professor. Ray Silverman,Corporate,Single,Female,5-Feb-88,12/31/2004,,13579,13579_3167,5000,12/31/2004,12/27/2027,3/31/2008,4/10/2008,U.S.A,South,Florida,Ponte Vedra Beach,32004,500000,60000
+2468,Professor. Rhonda Stein,Corporate,Single,Female,5-Feb-91,12/30/2010,,2468,02468_2468,60000,12/30/2010,12/27/2030,6/30/2011,7/20/2011,U.S,South,North Carolina,Salisbury,28144,400000,60000
+1767,Professor. Robert Rollins,Home Office,Single,Female,5-Feb-94,12/30/2013,,2468,02468_1767,60000,12/30/2013,12/27/2033,6/30/2014,7/20/2014,U.S.A,South,Georgia,Newnan,30265,400000,60000
+1702,Professor. Sandra Berry,Home Office,Single,Female,5-Feb-90,1/1/2007,,13579,13579_1702,5000,1/1/2007,12/27/2029,4/1/2010,4/11/2010,U.S.A,South,Mississippi,Meridian,39301,500000,60000
+2419,Professor. Sandra Faulkner,Consumer,Single,Female,5-Feb-92,12/31/2008,,13579,13579_2419,5000,12/31/2008,12/27/2031,3/31/2012,4/10/2012,United States Of America,South,Virginia,Portsmouth,23701,500000,60000
+1178,Professor. Sandy Hunt,Consumer,Single,Female,7-Dec-88,12/31/2005,,98765,98765_1178,2000,12/31/2005,12/27/2028,1/31/2009,3/2/2009,U.S.A,South,Florida,Altamonte Springs,32701,200000,72000
+1553,Professor. Tara Powers Underwood,Small Business,Single,Female,5-Feb-96,12/31/2012,,13579,13579_1553,5000,12/31/2012,12/27/2035,3/31/2016,4/10/2016,United States Of America,South,Mississippi,Greenville,38701,500000,60000
+2394,Professor. Tina Monroe,Corporate,Single,Female,5-Feb-97,1/1/2014,,13579,13579_2394,5000,1/1/2014,12/27/2036,4/1/2017,4/11/2017,U.S, ,Georgia,Sandy Springs,30328,500000,60000
+2847,Professor. Vanessa Day,Corporate,Single,Female,5-Feb-93,1/1/2010,,13579,13579_2847,5000,1/1/2010,12/27/2032,4/1/2013,4/11/2013,U.S,South,Tennessee,Collierville,38017,500000,60000
+1559,Professor. Zachary Maynard,Consumer,Single,Female,7-Dec-97,12/31/2014,,98765,98765_1559,2000,12/31/2014,12/27/2037,1/31/2018,3/2/2018,U.S.A, ,Virginia,Blacksburg,24060,200000,72000
+3048,Professor Tracy G Starr,Corporate,Single,Female,7-Dec-87,12/31/2004,,98765,98765_3048,2000,12/31/2004,12/27/2027,1/31/2008,,United States, ,California,Berkeley,94704,200000,72000
+2359,Doctor Annie Horne,Home Office,Married,Female,6-Feb-90,1/2/2007,,13579,13579_2359,5000,1/2/2007,12/28/2029,4/2/2010,4/12/2010,United States,South,Florida,Fort Myers,33917,500000,60000
+2285,Doctor Arnold Floyd Blair,Corporate,Married,Male,6-Feb-93,1/2/2010,,13579,13579_2285,5000,1/2/2010,12/28/2032,4/2/2013,4/12/2013,USA,South,South Carolina,Rock Hill,29730,500000,60000
+3001, Mr. John  Doe ,Consumer,Single ,Male,3-Jan-85,2/10/2015,,2468,02468_3001,8000,2/10/2015,2/9/2035,8/10/2016,8/30/2016,US,South,California,Los Angeles,90210,700000,80000
+3025,Doctor! Alicia** Brown,Corporate,Marrid,Female,5/13/1990,1/5/2012,,13579,13579_3025,5000,1/5/2012,12/30/2030,6/5/2013,6/15/2013,U.S.A,South,Nevada,Las Vegas,89109,600000,70000
+3100,Doctor David White,Consumer,Divorced,Male,Feb 29-1982,1/1/2016,,98765,98765_3100,-2500,1/1/2016,12/31/2036,7/1/2017,7/15/2017,United States,South,New York,New York,10001,200000,50000
+3155,Ms. Sophia  Green,Home Office,Married,Female,6-Feb-92,2/5/2018,,13579,13579_3155,0,2/5/2018,2/4/2038,8/5/2019,8/25/2019,USA,,Texas,Houston,77005,300000,10000
+3289,Doctor Robert O'Connor,Corporate,Single,Male,4/31/1994,3/2/2014,,19181,19181_3289,12000,3/2/2014,3/1/2034,9/2/2015,,U.S.A,South,Ohio,Cleveland,44114,800000,120000
+3345,Doctor. Jessica Johnson,Consumer,Married,Female,7-Jun-88,4/10/2009,,19182,19182_3345,9500,4/10/2009,4/9/2029,10/10/2010,10/30/2010,United States,South,Alabama,Birmingham,35203,900000,95000
+3421,Mr. Ethan Miller,Corporate,Married,Male,1-Apr-87,5/5/2020,,13579,13579_3421,11000,5/5/2020,5/4/2040,11/5/2021,11/25/2021,US,South,Colorado,Denver,80ABC,600000,110000
+3500,Doctor. Olivia Wilson,Home Office,Divorced,Female,10-Nov-91,6/15/2013,,98765,98765_3500,13000,6/15/2013,6/14/2033,12/15/2014,12/30/2014,USA,South,Pennsylvania,Philadelphia,19104,400000,130000

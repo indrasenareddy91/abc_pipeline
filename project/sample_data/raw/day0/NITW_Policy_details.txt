@@ -1,0 +1,11 @@
+
+2468	Mortgages	Related to Ornaments, Property Claim	HSB_Jewel_02468	Half-Yearly
+13579	Mediclaim	Related to Life or Personal Claim	HSB_Lifeclaim_13579	Quarterly
+19181	TermLife	Coverage for a certain period of time	HSB_Termclaim_1918	Quarterly
+19182	WholeLife	Remain in force for the insured's entire lifetime	HSB_WholeLife_22468	Halfyearly
+19183	Endowment	Related to Endowment Claim	HSB_WholeLife_19183	Quarterly
+19184	MoneyBack	The insured person gets a percentage of sum assured at regular intervals	HSB_Moneyback_19184	Quarterly
+19185	ChildPlan	Insurance cum investment plan to secure child's future	HSB_ChildPlan_19185	Quarterly
+19186	UnitLinked	Market-linked product that aggregates the very best of investment and insurance	HSB_UnitLinked_19186	Quart erly
+19187	AnnuityPlan	Income stream for retirees	HSB_Annuity_19187	Quarterly
+98765	Auto	Related to 4 wheelers or 3 wheelers or 2 wheelers Claims	HSB_Auto_98765	Monthly

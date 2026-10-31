@@ -1,0 +1,144 @@
+# ABC Insurance (US) — customer, policy, policy type, address and premium data from multiple regions/systems.
+# Sources (day0): West + South CSV (customer+policy rows), policy types as tab-separated TXT (no header) + JSON.
+# Incremental (day1): one CSV with new customers and changed records.
+# Assumptions (README): US dates are month-first; 2-digit years <= as_of year -> 20xx else 19xx; "today" is fixed
+# (as_of_date) so results are reproducible; amounts in USD; a blank Actual_Premium_Paid_Dt = premium not paid (missed).
+settings:
+  as_of_date: 2021-11-30            # last date in the data is 2021-11-25 -> "today" for tenure / status KPIs
+  min_date: 1900-01-01
+  date_default_order: mdy           # US source systems (proved by values like 12/30/2017)
+  base_currency: USD
+  batch_dates: {day0: 2021-11-29, day1: 2021-11-30}   # business date of each drop (SCD2 valid_from)
+  quarantine_alert_pct: 5
+  quarantine_fail_pct: 50
+  gold_fact_sources: {fact_policy: customer_policies}  # built-in check: fact rows = silver rows
+
+mappings:
+  country:        {valid: [United States], values: {us: United States, usa: United States,
+                   united states of america: United States}}
+  region:         {valid: [West, South, East, Central]}
+  segment:        {valid: [Corporate, Consumer, Small Business, Home Office]}
+  marital_status: {valid: [Single, Married, Divorced, Widowed, Remarried], fuzzy: 1}
+  gender:         {valid: [Male, Female], values: {m: Male, f: Female}}
+  policy_term:    {valid: [Monthly, Quarterly, Half-Yearly, Annual]}   # 'Halfyearly', 'Quart erly' match (punctuation/spaces ignored)
+
+tables:
+  policy_types:                     # parents first
+    file: ["NITW_Policy_details*.txt", "NITW_Policy_details*.json"]
+    read: {sep: tab, header: false,  # the .txt has no header row and is tab-separated
+           names: [Policy_Type_Id, Policy_Type, Policy_Type_Desc, Policy_Name, Policy_Term]}
+    rename: {Policy_Type_Id: policy_type_id, Policy_Type: policy_type, Policy_Type_Desc: policy_type_desc,
+             Policy_Name: policy_name, Policy_Term: policy_term}
+    key: policy_type_id
+    columns:
+      policy_type_id:   {type: id, required: true}
+      policy_type:      {type: text}
+      policy_type_desc: {type: text}
+      policy_name:      {type: text}
+      policy_term:      {type: category, map: policy_term}
+    expectations:
+      - {type: unique, column: policy_type_id}
+      - {type: not_null, column: policy_term}
+
+  customer_policies:                # one row = one customer's policy (+ its latest premium payment)
+    file: ["Customer_Insurance_details*.csv"]
+    rename:
+      "Customer ID": customer_id
+      "Customer Name": customer_name
+      Customer_Segment: customer_segment
+      Maritial_Status: marital_status
+      Gender: gender
+      DOB: dob
+      Effective_Start_Dt: effective_start_dt
+      Effective_End_Dt: effective_end_dt
+      Policy_Type_Id: policy_type_id
+      Policy_Id: policy_id
+      Premium_Amt: premium_amt
+      Policy_Start_Dt: policy_start_dt
+      Policy_End_Dt: policy_end_dt
+      Next_Premium_Dt: next_premium_dt
+      Actual_Premium_Paid_Dt: actual_premium_paid_dt
+      Country: country
+      Region: region
+      "State or Province": state
+      City: city
+      "Postal Code": postal_code
+      Total_Policy_Amt: total_policy_amt
+      Premium_Amt_Paid_TillDate: premium_paid_till_date
+    key: policy_key                 # Customer ID alone and Policy_Id alone are NOT unique -> customer_id|policy_id
+    columns:
+      customer_id:            {type: id, required: true}
+      customer_name:          {type: text}
+      customer_segment:       {type: category, map: segment}
+      marital_status:         {type: category, map: marital_status}
+      gender:                 {type: category, map: gender}
+      dob:                    {type: date}
+      effective_start_dt:     {type: date}
+      effective_end_dt:       {type: date}
+      policy_type_id:         {type: id, required: true}
+      policy_id:              {type: text, required: true}
+      premium_amt:            {type: number}
+      policy_start_dt:        {type: date}
+      policy_end_dt:          {type: date, max: 2199-12-31}   # whole-life policies end in 2112
+      next_premium_dt:        {type: date}
+      actual_premium_paid_dt: {type: date}                    # blank = premium not paid yet (missed)
+      country:                {type: category, map: country}
+      region:                 {type: category, map: region}
+      state:                  {type: text, case: title}
+      city:                   {type: text, case: title}
+      postal_code:            {type: text, pattern: "^[0-9]{5}$"}  # text: keeps leading zeros
+      total_policy_amt:       {type: number}
+      premium_paid_till_date: {type: number}
+    derived:
+      policy_key:
+        expr: "concat(customer_id, '|', policy_id)"
+        type: string
+        reason: "Unique key: one customer can hold several policies and one policy id can be shared by customers"
+      region_fixed:
+        expr: >-
+          coalesce(region, CASE WHEN lower(_source_file) LIKE '%south%' THEN 'South'
+                                WHEN lower(_source_file) LIKE '%west%' THEN 'West' END)
+        type: string
+        keep: false
+        reason: "Region empty: taken from the regional source file it came from"
+      region:
+        expr: "region_fixed"
+        type: string
+        reason: "Region empty: taken from the regional source file it came from"
+      name_clean:
+        expr: >-
+          trim(regexp_replace(regexp_replace(customer_name, '[^A-Za-z .''-]', ''), ' +', ' '))
+        type: string
+        keep: false
+        reason: "Customer name has junk characters or extra spaces"
+      title:
+        expr: >-
+          CASE regexp_extract(lower(name_clean), '^(mrs|mr|ms|miss|mister|mistress|dr|doctor|prof|professor)[.]?( |$)', 1)
+            WHEN 'mr' THEN 'Mr' WHEN 'mister' THEN 'Mr' WHEN 'mrs' THEN 'Mrs' WHEN 'mistress' THEN 'Mrs'
+            WHEN 'ms' THEN 'Ms' WHEN 'miss' THEN 'Miss' WHEN 'dr' THEN 'Dr' WHEN 'doctor' THEN 'Dr'
+            WHEN 'prof' THEN 'Prof' WHEN 'professor' THEN 'Prof' END
+        type: string
+        reason: "Title written many ways (Dr, Doctor., Prof, Professor, Mister, ...): standardised"
+      full_name:
+        expr: >-
+          initcap(trim(regexp_replace(lower(name_clean),
+            '^(mrs|mr|ms|miss|mister|mistress|dr|doctor|prof|professor)[.]?( |$)', '')))
+        type: string
+        reason: "Name in mixed case (e.g. ALICIA WoOd ShaH): title removed, proper case"
+    row_rules:
+      - {id: premium_not_positive, when: "premium_amt <= 0", action: flag,
+         reason: "Premium amount is zero or negative"}
+      - {id: paid_more_than_total, when: "premium_paid_till_date > total_policy_amt", action: flag,
+         reason: "Premium paid till date is more than the total policy amount"}
+      - {id: policy_end_before_start, when: "policy_end_dt < policy_start_dt", action: flag,
+         reason: "Policy end date is before the start date"}
+      - {id: premium_not_paid, when: "actual_premium_paid_dt IS NULL", action: flag,
+         reason: "No payment for the due premium (counted as a missed payment)"}
+    references:
+      - {column: policy_type_id, table: policy_types, on_missing: flag}   # unknown type -> kept, UNKNOWN (-1)
+    expectations:
+      - {type: unique, column: policy_key}
+      - {type: not_null, column: customer_id}
+      - {type: not_null, column: policy_start_dt}
+      - {type: accepted_values, column: region, values: [West, South, East, Central]}
+      - {type: row_count_min, value: 1}
